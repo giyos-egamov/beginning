@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INDEX</title>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.css">
+    <!-- https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css -->
+    <!-- main css -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    <div class="wrapper">
+
+        <!-- header -->
+        <header>
+            <nav class="navbar navbar-expand-lg ">
+                <div class="container">
+
+                    <!-- Header logo -->
+                  <a class="navbar-brand" href="#">
+                    <img src="images/header_logo.svg" alt="">
+                  </a>
+
+                  <!-- Nvbar toggler -->
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+
+                    <!-- Hiding menu -->
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        
+                        <!-- navbar menu -->
+                        <ul class="navbar-nav mx-auto  mb-lg-0">
+                       
+                            <li class="nav-item">
+                                <a class="nav-link" href="faq.html">FAQ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="blog.html">Блог</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Панель управления</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#authentication_modal">Авторизация</a>
+                            </li>
+                        </ul>
+                        
+
+                        <ul class="header_social d-flex">
+                            <li>
+                                <a data-bs-toggle="modal" data-bs-target="#buy_key_modal" href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
+                                    <path d="M22.9042 2L11.895 13" stroke="#03FFA4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M22.9042 2L15.8984 22L11.8951 13L2.88757 9L22.9042 2Z" stroke="#03FFA4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
+                                    <path d="M4.93673 4H20.9501C22.051 4 22.9517 4.9 22.9517 6V18C22.9517 19.1 22.051 20 20.9501 20H4.93673C3.83581 20 2.93506 19.1 2.93506 18V6C2.93506 4.9 3.83581 4 4.93673 4Z" stroke="#03FFA4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M22.9517 6L12.9434 13L2.93506 6" stroke="#03FFA4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>s</svg>
+                            </a>
+                        </li>
+                        </ul>
+                        
+                    </div>
+                </div>
+              </nav>
+        </header>
+
+        <!-- hero -->
+        <section class="hero">
+            <div class="container">
+                <div class="row justify-content-center align-items-center gy-5  ">
+                    <div class="col-md-4 text-center">
+                        <h1 class="hero_title">GET A GOOD PROXY</h1>
+                        <div class="hero_discription">Прокси для всех. Огромный список проверенных серверов. Больше никаких долгих поисков. </div>
+                        <a href="#" class="button button_green" data-bs-toggle="modal" data-bs-target="#buy_key_modal">Купить</a>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="images/hero_img.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        
+        </section>
+
+        <!-- Available -->
+        <section class="available">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-lg-4 col-md-6 col-12">
+                         <div class="available_text">В данный момент доступны прокси:</div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <ul class="available_list d-flex justify-content-end">
+                            <li>HTTP/s: <span>5332</span></li>
+                            <li>SOCKS4: <span>7181</span></li>
+                            <li>SOCKS5: <span>271</span></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Advantages -->
+        <section class="advantages">
+            <div class="container">
+
+                <div class="row">
+                    
+                    <div class="col-md-4 "  >
+                        <div class="advantages_item">
+                            <div class="advantages_img">
+                                    <img src="images/adv1.svg" alt="">
+                            </div>
+                            <div class="advantage_name">Актальность</div>
+                            <div class="advantage_description">Список доступных прокси обновляется каждую минуту. Вы не попадете на недействительный.</div>
+                        </div>
+                    </div>
+                      
+                    <div class="col-md-4">
+                        <div class="advantages_item">
+                            <div class="advantages_img">
+                                    <img src="images/adv2.svg" alt="">
+                            </div>
+                            <div class="advantage_name">Стоимость</div>
+                            <div class="advantage_description">Самые низкие цены за доступ к списку прокси. Скидки постоянным клиентам.</div>
+                        </div>
+                    </div>
+                      
+                    <div class="col-md-4">
+                        <div class="advantages_item">
+                            <div class="advantages_img">
+                                    <img src="images/adv3.svg" alt="">
+                            </div>
+                            <div class="advantage_name">Параметры</div>
+                            <div class="advantage_description">Настроить поиск актуальных прокси из списка можно очень гибко. Найдите лучший вариант.</div>
+                        </div>
+                    </div>
+                      
+                    <div class="col-md-4">
+                        <div class="advantages_item">
+                            <div class="advantages_img">
+                                    <img src="images/adv4.svg" alt="">
+                            </div>
+                            <div class="advantage_name">Простота</div>
+                            <div class="advantage_description">Для доступа к списку прокси не нужна регистрация. Вы получите ключ после оплаты, который и будет доступом..</div>
+                        </div>
+                    </div>
+                      
+                    <div class="col-md-4">
+                        <div class="advantages_item">
+                            <div class="advantages_img">
+                                    <img src="images/adv5.svg" alt="">
+                            </div>
+                            <div class="advantage_name">Совместимость</div>
+                            <div class="advantage_description">Использовать наши прокси вы можете в любых  сферах деятельности. Никаких ограничений нет</div>
+                        </div>
+                    </div>
+                      
+                    <div class="col-md-4">
+                        <div class="advantages_item">
+                            <div class="advantages_img">
+                                    <img src="images/adv6.svg" alt="">
+                            </div>
+                            <div class="advantage_name">Безопасность</div>
+                            <div class="advantage_description">Любые, откланяющиеся от нормы прокси удаляются из списка с периодичность в 5 минут.</div>
+                        </div>
+                    </div>
+                   
+               </div>
+             
+            </div>
+
+        </section>
+
+        <!-- Products -->
+        <section class="products">
+            <div class="container">
+                <div class="row justify-content-center gy-4">
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="product_item">
+                                <div class="product_top">
+                                    <div class="product_image">
+                                        <img src="images/product_img.svg" alt="">
+                                    </div>
+                                    <div class="product_name">Публичные прокси</div>
+                                    <div class="product_description">
+                                        Публичные IP-адреса со всего мира. Обновление доступов ежесекундно. Отличное решение для нетребовательных запросов.
+                                    </div>
+                                </div>
+                            <ul class="product_benefits">
+                                <li>В среднем 30 тысяч IP</li>
+                                <li>Гибкий выбор стран</li>
+                                <li>Низкая цена</li>
+                                <li>Автообновление</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="product_item green">
+                                <div class="product_top">
+                                    <div class="product_image">
+                                        <img src="images/product_img1.svg" alt="">
+                                    </div>
+                                    <div class="product_name">Серверные прокси</div>
+                                    <div class="product_description">
+                                        Приватные IP-адреса со всего мира.  Отличное решение для нетребовательных запросов.
+                                    </div>
+                                </div>
+                            <ul class="product_benefits">
+                                <li>Выдаются в одни руки</li>
+                                <li>Скрытие IP-адреса</li>
+                                <li>Защита и безопасность</li>
+                                <li>Стабильность</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                   <div class="col-lg-4 col-md-6 ">
+                        <div class="product_item yellow">
+                                <div class="product_top">
+                                    <div class="product_image">
+                                        <img src="images/product_img2.svg" alt="">
+                                    </div>
+                                    <div class="product_name">Мобильные прокси</div>
+                                    <div class="product_description">
+                                        Публичные IP-адреса со всего мира. Обновление доступов ежесекундно. Отличное решение для нетребовательных запросов.
+                                    </div>
+                                </div>
+                            <ul class="product_benefits">
+                                <li>Автосмена IP</li>
+                                <li>Гибкий выбор стран</li>
+                                <li>Низкая цена</li>
+                                <li>Автообновление</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- Search -->
+        <section class="search">
+
+            <form>
+                <div class="container">
+                    <input  type="text" placeholder="Найти страну..." class="form-control" >
+                </div>
+            </form>
+            
+            <div class="container">
+                <div class="search_results">
+
+                    
+                <div class="row">
+
+                    <!-- search_item -->
+                    <div class="col-md-3 col-sm-6">
+                        <div class="result_item">
+                            Avstraliya
+                            <span class="result_count">18</span>
+                        </div>
+                    </div>
+                    <!-- search_item -->
+                    <div class="col-md-3 col-sm-6">
+                        <div class="result_item">
+                            Avstraliya
+                            <span class="result_count">18</span>
+                        </div>
+                    </div>
+
+                    <!-- search_item -->
+                    <div class="col-md-3 col-sm-6">
+                        <div class="result_item">
+                            Avstraliya
+                            <span class="result_count">18</span>
+                        </div>
+                    </div>
+                    <!-- search_item -->
+                    <div class="col-md-3 col-sm-6">
+                        <div class="result_item">
+                            Avstraliya
+                            <span class="result_count">18</span>
+                        </div>
+                    </div>
+                    <!-- search_item -->
+                    <div class="col-md-3 col-sm-6">
+                        <div class="result_item">
+                            Avstraliya
+                            <span class="result_count">18</span>
+                        </div>
+                    </div>
+                    <!-- search_item -->
+                    <div class="col-md-3 col-sm-6">
+                        <div class="result_item">
+                            Avstraliya
+                           <span class="result_count">18</span>
+                        </div>
+                    </div>
+                    <!-- search_item -->
+                    <div class="col-md-3 col-sm-6">
+                        <div class="result_item">
+                            Avstraliya
+                            <span class="result_count">18</span>
+                        </div>
+                    </div>
+
+                        <!-- search_item -->
+                    <div class="col-md-3 col-sm-6">
+                        <div class="result_item">
+                             Avstraliya
+                            <span class="result_count">18</span>
+                        </div>
+                    </div>
+                    <!-- search_item -->
+                    <div class="col-md-3 col-sm-6">
+                        <div class="result_item">
+                            Avstraliya
+                            <span class="result_count">18</span>
+                        </div>
+                    </div>
+
+                    <!-- search_item -->
+                    <div class="col-md-3 col-sm-6">
+                        <div class="result_item">
+                            Avstraliya
+                            <span class="result_count">18</span>
+                        </div>
+                    </div>
+                    <!-- search_item -->
+                    <div class="col-md-3 col-sm-6">
+                        <div class="result_item">
+                            Avstraliya
+                            <span class="result_count">18</span>
+                        </div>
+                    </div>
+                    <!-- search_item -->
+                    <div class="col-md-3 col-sm-6">
+                        <div class="result_item">
+                            Avstraliya
+                            <span class="result_count">18</span>
+                        </div>
+                    </div>
+                    <!-- search_item -->
+                    <div class="col-md-3 col-sm-6">
+                        <div class="result_item">
+                            Avstraliya
+                            <span class="result_count">18</span>
+                        </div>
+                    </div>
+                    <!-- search_item -->
+                    <div class="col-md-3 col-sm-6">
+                        <div class="result_item">
+                            Avstraliya
+                            <span class="result_count">18</span>
+                        </div>
+                    </div>
+                    
+                    <!-- search_item -->
+                    <div class="col-md-3 col-sm-6">
+                        <div class="result_item">
+                                Avstraliya
+                                <span class="result_count">18</span>
+                    </div>
+                    </div>
+                    <!-- search_item -->
+                    <div class="col-md-3 col-sm-6">
+                        <div class="result_item">
+                                Avstraliya
+                                <span class="result_count">18</span>
+                    </div>
+                    </div>
+                    <a href="#" class="button button_adv">Показать больше</a>
+                </div>
+                </div>
+            </div>
+            
+           
+        </section>
+
+        <!-- Price -->
+        <section class="price">
+            <div class="container">
+                <div class="row justify-content-center gy-4">
+                    <!-- price item -->
+                    <div class="col-lg-4 col-md-6 d-flex justify-content-center">
+                        <div class="price_item">
+                            <div class="price_img">
+                                <img src="images/prize_img.svg" alt="">
+                            </div>
+                            <ul class="price_list">
+                                <li>Доступ на 1 день</li>
+                                <li>50 рублей</li>
+                            </ul>
+                            <a href="#" class="button button_price" data-bs-toggle="modal" data-bs-target="#buy_key_modal">Купить</a>
+                        </div>
+                    </div>
+                    <!-- price item -->
+                    <div class="col-lg-4 col-md-6  d-flex justify-content-center">
+                        <div class="price_item green">
+                            <div class="price_img">
+                                <img src="images/prize_img2.svg" alt="">
+                            </div>
+                            <ul class="price_list">
+                                <li>Доступ на 30 день </li>
+                                <li>500 рублей</li>
+                            </ul>
+                            <a href="#" class="button button_price green"data-bs-toggle="modal" data-bs-target="#buy_key_modal">Купить</a>
+                        </div>
+                    </div>
+                    <!-- price item -->
+                    <div class="col-lg-4 col-md-6   d-flex justify-content-center">
+                        <div class="price_item yellow">
+                            <div class="price_img">
+                                <img src="images/prize_img3.svg" alt="">
+                            </div>
+                            <ul class="price_list">
+                                <li>Доступ на 60 день</li>
+                                <li>480 рублей</li>
+                            </ul>
+                            <a href="#" class="button button_price yellow" data-bs-toggle="modal" data-bs-target="#buy_key_modal">Купить</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Payments -->
+        <section class="payment">
+            <div class="container">
+                <div class="row justify-content-center gy-5">
+                    <div class="col-lg-2 col-sm-6 ">
+                        <div class="payment_item"><a href=#><img src="images/payment1.svg" alt=""></a></div>
+                    </div>
+                    <div class="col-lg-2 col-sm-6">
+                        <div class="payment_item"><a href=#><img src="images/payment2.svg" alt=""></a></div>
+                    </div>
+                    <div class="col-lg-2 col-sm-6">
+                        <div class="payment_item"><a href=#><img src="images/payment3.svg" alt=""></a></div> 
+                    </div>
+                    <div class="col-lg-2 col-sm-6">
+                        <div class="payment_item"><a href=#><img src="images/payment4.svg" alt=""></a></div> 
+                    </div>
+                    <div class="col-lg-2 col-sm-6">
+                        <div class="payment_item"><a href=#><img src="images/payment5.svg" alt=""></a></div>   
+                    </div>
+                  
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+         <section class="footer">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <!-- left -->
+                   <div class="col-lg-4 col-md-6">
+                        <div class="footer_left">
+                            <img src="images/footer_logo.png" alt="">
+                            <ul>
+                                <li><a href="mailto:support@mail.ru">support@mail.ru</a></li>
+                                <li><a href="@supportproxy">@supportproxy</a></li>
+                            </ul>
+                        </div>
+                    </div> 
+                    <!-- center -->
+                   <div class="col-lg-4 col-md-6 ">
+                        <div class="footer_center text-center">
+                            <ul>
+                                <li><a href="#">Цены / Купить</a></li>
+                                <li><a href="#">Статистика</a></li>
+                                <li><a href="#">Условия использования</a></li>
+                                <li><a href="#">Политика конфиденциальности</a></li>
+                                <li><a href="#">Вопросы и ответы</a></li>
+                                <li><a href="#">База знаний о прокси</a></li>
+                                <li><a href="#">Описание API</a></li>
+                            </ul>
+                        </div>
+                   </div>
+                   <!-- right -->
+                   <div class="last col-lg-4 col-md-6  ">
+                    <span >proxy1337 - обновляемый список проверенных прокси. Рабоаем с 2019 года. Все права <br>защищены!</span>
+                   </div>
+                   <div class="col-md-12 text-center mt-5">© 2019 - 2020 Proxy1337.com </div>
+                </div>
+             
+            </div>
+         </section>
+    </div>
+        <!-- buy key modal -->
+    <div class="modal fade" id="buy_key_modal" tabindex="-1" data-bs-backdrop="static">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+
+            <!-- body -->
+            <div class="modal-body">
+                
+                <form>
+
+                    <div class="modal_top_actions">
+                        <button type="reset">
+                            <img src="images/modal_reset.svg" alt="">
+                        </button>
+                        <button type="button" class="" data-bs-dismiss="modal" aria-label="Close">
+                            <img src="images/modal_close.svg" alt="">
+                        </button>
+                    </div>
+                    <div class="modal_title">Купить ключ</div>
+                    <div class="inputs">
+                        <input type="email" placeholder="Email" class="form-control">
+                        <span class="custom_select">
+                            <select name="payment_type" id="" class="form-select">
+                                <option value="0">Способ оплаты</option>
+                                <option>Tikoff</option>
+                                <option>QIWI</option>
+                                <option>ClILC</option>
+                            </select>
+                        </span>
+
+                        <div class="custom_range">
+                            <div class="days_number text-end">99 дней</div>
+                            <input type="range" name="days" class="form-range">
+                        </div>
+
+                    </div>
+
+                    <div class="agreement">
+                        <label>
+                            <input type="checkbox" name="agreement" checked>
+                            <span class="checkmark"></span>
+                             Согласен с <a href="#">условиями использования</a>
+                        </label>
+                    </div>
+
+                    <div class="modal_price text-center">
+                        <div class="by_day">Вы выбрали пакет <span>6</span> р в день</div>
+                        <div class="total">К оплате <span>660₽</span></div>
+                    </div>
+                    <button class="button button_green w-100">Оплатить</button>
+
+                </form>
+             
+            </div>
+
+          </div>
+        </div>
+    </div>
+                <!-- authentication_modal -->
+    <div class="modal fade" id="authentication_modal" tabindex="-1" data-bs-backdrop="static">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+
+            <!-- body -->
+            <div class="modal-body">
+                
+                <form>
+
+                    <div class="modal_top_actions">
+                        
+                        <button type="button" class="" data-bs-dismiss="modal" aria-label="Close">
+                            <img src="images/modal_close.svg" alt="">
+                        </button>
+                    </div>
+
+                    <div class="modal_title">Авторизация</div>
+                    <div class="inputs mb-3">
+                        <input type="email" placeholder="Ваш ключ..." class="form-control">
+                    </div>
+
+                    <div class="row ">
+                        
+                        <div class="col-lg-6"> <button class="button button_green">Оплатить</button></div>
+                        <div class="col-lg-6"><button class="button button_black">Потеряли ключ?</button></div>
+                    </div>
+                </form>
+             
+            </div>
+
+          </div>
+        </div>
+    </div>
+
+
+    <script src='libs/bootstrap/js/bootstrap.bundle.js'></script>
+    <!-- "https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" -->
+</body>
+</html>
